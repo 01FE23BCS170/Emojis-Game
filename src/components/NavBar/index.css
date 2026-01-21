@@ -1,0 +1,29 @@
+* {
+  font-family: 'Roboto';
+}
+.navbar-container {
+  display: flex;
+  justify-content: center;
+  background-color: #9796f0;
+  height: 80px;
+  align-items: center;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  gap: 300px;
+}
+
+.navbar-left-content {
+  display: flex;
+  align-items: center;
+}
+
+.navbar-right-content {
+  display: flex;
+  gap: 15px;
+  align-items: center;
+}
+
+.navbar-logo-name,
+.score-text {
+  color: #ffffff;
+}
